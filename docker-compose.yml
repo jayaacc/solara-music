@@ -1,6 +1,6 @@
 services:
   solara-music:
-    image: aexus/solara-music:latest
+    image: docker.1ms.run/aexus/solara-music:latest
     container_name: solara-music
     restart: unless-stopped
     ports:
